@@ -2,6 +2,8 @@
 
 A lightweight desktop application for compressing files into ZIP or tar.gz archives, built with Python and FreeSimpleGUI.
 
+![File Compressor Screenshot](screenshot.png)
+
 ## Features
 
 - **Multi-file selection** with a listbox interface for adding, removing, and managing files before compression
@@ -19,11 +21,11 @@ A lightweight desktop application for compressing files into ZIP or tar.gz archi
 ## Project Structure
 
 ```
-file-compressor/
+Local-File-Compressor/
 ├── compressor.py      # GUI frontend (FreeSimpleGUI)
 ├── zip_creator.py     # Compression backend (zipfile / tarfile)
-├── README.md
-└── requirements.txt
+├── screenshot.png     # App screenshot
+└── README.md
 ```
 
 ### compressor.py (Frontend)
@@ -46,8 +48,8 @@ All other dependencies (`zipfile`, `tarfile`, `pathlib`, `threading`, `json`, `l
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/file-compressor.git
-cd file-compressor
+git clone https://github.com/Kiran1510/Local-File-Compressor.git
+cd Local-File-Compressor
 ```
 
 2. Install dependencies:
