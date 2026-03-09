@@ -24,7 +24,9 @@ A lightweight desktop application for compressing files into ZIP or tar.gz archi
 Local-File-Compressor/
 ├── compressor.py      # GUI frontend (FreeSimpleGUI)
 ├── zip_creator.py     # Compression backend (zipfile / tarfile)
+├── requirements.txt   # Python dependencies
 ├── screenshot.png     # App screenshot
+├── LICENSE            # MIT License
 └── README.md
 ```
 
